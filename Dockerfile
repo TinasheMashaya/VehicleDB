@@ -1,6 +1,6 @@
 FROM mariadb:latest
 
-ADD vehicle.sql /docker-entrypoint-initdb.d
+ADD vehicles.sql /docker-entrypoint-initdb.d
 
 ENV MYSQL_ROOT_PASSWORD tinashe123
 ENV MYSQL_DATABASE vehiclesDB
