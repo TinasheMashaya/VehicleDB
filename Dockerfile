@@ -12,3 +12,4 @@ RUN apt-get update && apt-get -y install vim php
 EXPOSE 3306
 
 CMD ["mysqld"]
+# ENTRYPOINT [ "php", "./index.php" ]
